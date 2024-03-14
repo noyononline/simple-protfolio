@@ -3,7 +3,7 @@ import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 const Hero = () => {
   return (
     <div className="container mx-auto py-32">
-      <div className="flex justify-center gap-12 items-center font-bold">
+      <div className="flex sm:flex-col lg:flex-row justify-center gap-12 items-center font-bold">
         <img
           className="rounded-full w-[300px] h-[300px]"
           src="https://swimswam.com/wp-content/uploads/2019/09/William-and-Mary_m_Kent-Codding.jpeg"

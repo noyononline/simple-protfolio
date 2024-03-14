@@ -7,14 +7,14 @@ const AboutMe = () => {
         <h4 className="text-sm text-slate-700">get to know more</h4>
         <h2 className="text-5xl font-bold capitalize">about me</h2>
       </div>
-      <div className="flex gap-10 justify-between">
+      <div className="flex sm:flex-col sm:justify-center sm:items-center gap-10 justify-between">
         <img
           className="w-[500px]"
           src="https://static.vecteezy.com/system/resources/previews/011/975/608/original/kid-happy-learning-codding-in-computer-web-coding-for-kids-illustration-coding-its-fun-can-be-used-for-web-banner-poster-social-media-promotion-etc-vector.jpg"
           alt=""
         />
         <div>
-          <div className="flex mb-7 gap-16 justify-start items-center">
+          <div className="flex sm:justify-center mb-7 gap-16 justify-start items-center">
             <div className="border-2 text-center py-10 px-9 border-black rounded-2xl">
               <FaAward className="mx-auto" />
               <h3 className="font-bold text-2xl capitalize">experience</h3>
@@ -28,7 +28,7 @@ const AboutMe = () => {
               <h6 className="capitalize">frontend development</h6>
             </div>
           </div>
-          <p className="text-lg text-justify">
+          <p className="text-lg sm:px-20 text-justify">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos
             laborum harum voluptas! Illum, architecto quae facilis error
             officiis impedit, nisi adipisci dolor expedita quam sapiente
